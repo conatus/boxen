@@ -1,7 +1,17 @@
 GITHUBTARBALL
+  remote: boxen/puppet-alfred
+  specs:
+    alfred (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
     boxen (1.2.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-cyberduck
+  specs:
+    cyberduck (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
@@ -17,6 +27,11 @@ GITHUBTARBALL
   remote: boxen/puppet-git
   specs:
     git (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-hipchat
+  specs:
+    hipchat (1.0.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-homebrew
@@ -54,6 +69,16 @@ GITHUBTARBALL
     sudo (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-wget
+  specs:
+    wget (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-wunderlist
+  specs:
+    wunderlist (1.0.0)
+
+GITHUBTARBALL
   remote: cprice-puppet/puppetlabs-inifile
   specs:
     inifile (0.9.0)
@@ -64,10 +89,13 @@ GITHUBTARBALL
     stdlib (3.0.0)
 
 DEPENDENCIES
+  alfred (= 1.0.0)
   boxen (= 1.2.0)
+  cyberduck (= 1.0.0)
   dnsmasq (= 1.0.0)
   gcc (= 1.0.0)
   git (= 1.0.0)
+  hipchat (= 1.0.2)
   homebrew (= 1.1.2)
   hub (= 1.0.0)
   inifile (= 0.9.0)
@@ -77,4 +105,6 @@ DEPENDENCIES
   ruby (= 3.1.0)
   stdlib (= 3.0.0)
   sudo (= 1.0.0)
+  wget (= 1.0.0)
+  wunderlist (= 1.0.0)
 

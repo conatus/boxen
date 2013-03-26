@@ -31,5 +31,10 @@ github "ruby",     "3.1.0"
 github "stdlib",   "3.0.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",     "1.0.0"
 
-# Optional/custom modules. There are tons available at
-# https://github.com/boxen.
+github "cyberduck",  "1.0.0"
+github "hipchat",    "1.0.2"
+github "wget",       "1.0.0"
+github "wunderlist", "1.0.0"
+github "alfred",     "1.0.0"
+github "flux",       "0.0.1"
+#github "appcleaner", "1.0.0"

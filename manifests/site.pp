@@ -67,6 +67,20 @@ node default {
   include ruby::1_9_3
   include ruby::2_0_0
 
+  # Web utilities
+  include cyberduck
+  include wget
+
+  # Communication
+  include hipchat
+
+  # Productivity
+  include wunderlist
+  include alfred
+
+  # Other
+  include flux
+
   # common, useful packages
   package {
     [
