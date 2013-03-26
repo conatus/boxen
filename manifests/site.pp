@@ -87,7 +87,7 @@ node default {
       'ack',
       'findutils',
       'gnu-tar',
-      'git-utils'
+      'git-extras'
     ]:
   }
 
