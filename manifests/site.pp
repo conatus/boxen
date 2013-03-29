@@ -94,6 +94,7 @@ node default {
   include wunderlist
   include alfred
   include dropbox
+  include lastpass
 
   # Video
   include vlc
@@ -102,6 +103,7 @@ node default {
   include flux
   include appcleaner
   include kindle
+  include unarchiver
 
   # Common, useful packages
   package {

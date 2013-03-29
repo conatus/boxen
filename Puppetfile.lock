@@ -139,6 +139,16 @@ GITHUBTARBALL
     colloquy (1.0.0)
 
 GITHUBTARBALL
+  remote: dieterdemeyer/puppet-lastpass
+  specs:
+    lastpass (1.0.0)
+
+GITHUBTARBALL
+  remote: dieterdemeyer/puppet-unarchiver
+  specs:
+    unarchiver (1.0.0)
+
+GITHUBTARBALL
   remote: kevinSuttle/puppet-kindle
   specs:
     kindle (1.0.0)
@@ -177,6 +187,7 @@ DEPENDENCIES
   hub (= 1.0.0)
   inifile (= 0.9.0)
   kindle (= 1.0.0)
+  lastpass (= 1.0.0)
   nginx (= 1.1.0)
   nodejs (= 1.0.0)
   nvm (= 1.0.0)
@@ -186,6 +197,7 @@ DEPENDENCIES
   stdlib (= 3.0.0)
   sublime_text_2 (= 1.1.0)
   sudo (= 1.0.0)
+  unarchiver (= 1.0.0)
   vagrant (= 2.0.3)
   virtualbox (= 1.0.1)
   vlc (= 1.0.0)
