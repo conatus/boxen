@@ -71,6 +71,7 @@ node default {
   include virtualbox
   include vagrant
   include sublime_text_2
+  include sequel_pro
 
   # Browsers
   include chrome
@@ -83,6 +84,7 @@ node default {
 
   # Communication
   include hipchat
+  include colloquy
 
   # Music
   include spotify
