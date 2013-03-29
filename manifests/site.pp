@@ -71,6 +71,10 @@ node default {
   include virtualbox
   include vagrant
 
+  # Browsers
+  include chrome
+  include chrome::canary
+
   # Web utilities
   include cyberduck
   include wget
