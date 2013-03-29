@@ -72,6 +72,7 @@ node default {
   include vagrant
   include sublime_text_2
   include sequel_pro
+  include github
 
   # Browsers
   include chrome
@@ -93,6 +94,9 @@ node default {
   include wunderlist
   include alfred
   include dropbox
+
+  # Video
+  include vlc
 
   # Other
   include flux

@@ -114,6 +114,11 @@ GITHUBTARBALL
     virtualbox (1.0.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-vlc
+  specs:
+    vlc (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-wget
   specs:
     wget (1.0.0)
@@ -132,6 +137,11 @@ GITHUBTARBALL
   remote: dieterdemeyer/puppet-colloquy
   specs:
     colloquy (1.0.0)
+
+GITHUBTARBALL
+  remote: pulse00/puppet-github
+  specs:
+    github (1.0.0)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-stdlib
@@ -156,6 +166,7 @@ DEPENDENCIES
   flux (= 0.0.1)
   gcc (= 1.0.0)
   git (= 1.0.0)
+  github (= 1.0.0)
   hipchat (= 1.0.2)
   homebrew (= 1.1.2)
   hub (= 1.0.0)
@@ -171,6 +182,7 @@ DEPENDENCIES
   sudo (= 1.0.0)
   vagrant (= 2.0.3)
   virtualbox (= 1.0.1)
+  vlc (= 1.0.0)
   wget (= 1.0.0)
   wunderlist (= 1.0.0)
 
