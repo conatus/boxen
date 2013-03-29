@@ -139,6 +139,11 @@ GITHUBTARBALL
     colloquy (1.0.0)
 
 GITHUBTARBALL
+  remote: kevinSuttle/puppet-kindle
+  specs:
+    kindle (1.0.0)
+
+GITHUBTARBALL
   remote: pulse00/puppet-github
   specs:
     github (1.0.0)
@@ -171,6 +176,7 @@ DEPENDENCIES
   homebrew (= 1.1.2)
   hub (= 1.0.0)
   inifile (= 0.9.0)
+  kindle (= 1.0.0)
   nginx (= 1.1.0)
   nodejs (= 1.0.0)
   nvm (= 1.0.0)

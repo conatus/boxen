@@ -101,6 +101,7 @@ node default {
   # Other
   include flux
   include appcleaner
+  include kindle
 
   # Common, useful packages
   package {
