@@ -67,6 +67,9 @@ node default {
   include ruby::1_9_3
   include ruby::2_0_0
 
+  # Development
+  include vagrant
+
   # Web utilities
   include cyberduck
   include wget
@@ -80,6 +83,7 @@ node default {
 
   # Other
   include flux
+  include appcleaner
 
   # common, useful packages
   package {
