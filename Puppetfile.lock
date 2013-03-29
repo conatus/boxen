@@ -29,6 +29,11 @@ GITHUBTARBALL
     dnsmasq (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-firefox
+  specs:
+    firefox (1.0.5)
+
+GITHUBTARBALL
   remote: boxen/puppet-flux
   specs:
     flux (0.0.1)
@@ -125,6 +130,7 @@ DEPENDENCIES
   chrome (= 1.1.0)
   cyberduck (= 1.0.0)
   dnsmasq (= 1.0.0)
+  firefox (= 1.0.5)
   flux (= 0.0.1)
   gcc (= 1.0.0)
   git (= 1.0.0)
