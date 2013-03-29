@@ -78,6 +78,9 @@ node default {
   # Communication
   include hipchat
 
+  # Music
+  include spotify
+
   # Productivity
   include wunderlist
   include alfred
