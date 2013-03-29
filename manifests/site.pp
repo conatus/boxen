@@ -68,6 +68,7 @@ node default {
   include ruby::2_0_0
 
   # Development
+  include virtualbox
   include vagrant
 
   # Web utilities
