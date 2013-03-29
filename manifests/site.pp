@@ -89,6 +89,7 @@ node default {
   # Productivity
   include wunderlist
   include alfred
+  include dropbox
 
   # Other
   include flux
