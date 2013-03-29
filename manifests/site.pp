@@ -49,19 +49,19 @@ Service {
 Homebrew::Formula <| |> -> Package <| |>
 
 node default {
-  # core modules, needed for most things
+  # Core modules, needed for most things
   include dnsmasq
   include git
   include hub
   include nginx
   include nvm
 
-  # node versions
+  # Node versions
   include nodejs::0-4
   include nodejs::0-6
   include nodejs::0-8
 
-  # default ruby versions
+  # Ruby versions
   include ruby::1_8_7
   include ruby::1_9_2
   include ruby::1_9_3
@@ -74,6 +74,7 @@ node default {
   # Browsers
   include chrome
   include chrome::canary
+  include firefox
 
   # Web utilities
   include cyberduck
@@ -93,7 +94,7 @@ node default {
   include flux
   include appcleaner
 
-  # common, useful packages
+  # Common, useful packages
   package {
     [
       'ack',
