@@ -70,6 +70,7 @@ node default {
   # Development
   include virtualbox
   include vagrant
+  include sublime_text_2
 
   # Browsers
   include chrome

@@ -94,6 +94,11 @@ GITHUBTARBALL
     spotify (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-sublime_text_2
+  specs:
+    sublime_text_2 (1.1.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-sudo
   specs:
     sudo (1.0.0)
@@ -150,6 +155,7 @@ DEPENDENCIES
   ruby (= 3.1.0)
   spotify (= 1.0.0)
   stdlib (= 3.0.0)
+  sublime_text_2 (= 1.1.0)
   sudo (= 1.0.0)
   vagrant (= 2.0.3)
   virtualbox (= 1.0.1)
