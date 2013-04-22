@@ -73,6 +73,7 @@ node default {
   include sublime_text_2
   include sequel_pro
   include github
+  include java
 
   # Browsers
   include chrome
