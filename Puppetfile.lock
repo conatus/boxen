@@ -74,6 +74,11 @@ GITHUBTARBALL
     intellij (1.1.3)
 
 GITHUBTARBALL
+  remote: boxen/puppet-java
+  specs:
+    java (1.0.6)
+
+GITHUBTARBALL
   remote: boxen/puppet-nginx
   specs:
     nginx (1.1.0)
@@ -192,6 +197,7 @@ DEPENDENCIES
   hub (= 1.0.0)
   inifile (= 0.9.0)
   intellij (= 1.1.3)
+  java (= 1.0.6)
   kindle (= 1.0.0)
   lastpass (= 1.0.0)
   nginx (= 1.1.0)
