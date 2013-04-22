@@ -99,6 +99,11 @@ GITHUBTARBALL
     ruby (3.1.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-skype
+  specs:
+    skype (1.0.2)
+
+GITHUBTARBALL
   remote: boxen/puppet-spotify
   specs:
     spotify (1.0.0)
@@ -164,6 +169,11 @@ GITHUBTARBALL
     kindle (1.0.0)
 
 GITHUBTARBALL
+  remote: mattheath/puppet-apache
+  specs:
+    apache (0.0.1)
+
+GITHUBTARBALL
   remote: pulse00/puppet-github
   specs:
     github (1.0.0)
@@ -180,6 +190,7 @@ GITHUBTARBALL
 
 DEPENDENCIES
   alfred (= 1.0.2)
+  apache (= 0.0.1)
   appcleaner (= 1.0.0)
   boxen (= 1.2.0)
   chrome (= 1.1.0)
@@ -205,6 +216,7 @@ DEPENDENCIES
   nvm (= 1.0.0)
   ruby (= 3.1.0)
   sequel_pro (= 0.1.0)
+  skype (= 1.0.2)
   spotify (= 1.0.0)
   stdlib (= 3.0.0)
   sublime_text_2 (= 1.1.0)

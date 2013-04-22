@@ -87,6 +87,7 @@ node default {
   # Communication
   include hipchat
   include colloquy
+  include skype
 
   # Music
   include spotify
