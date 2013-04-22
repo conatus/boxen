@@ -105,6 +105,10 @@ node default {
   include kindle
   include unarchiver
 
+  class { 'intellij':
+    edition => 'ultimate',
+  }
+
   # Common, useful packages
   package {
     [
