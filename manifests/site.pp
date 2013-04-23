@@ -107,6 +107,7 @@ node default {
   include appcleaner
   include kindle
   include unarchiver
+  include caffeine
 
   class { 'intellij':
     edition => 'ultimate',
