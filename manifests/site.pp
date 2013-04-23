@@ -97,6 +97,7 @@ node default {
   include alfred
   include dropbox
   include lastpass
+  include divvy
 
   # Video
   include vlc

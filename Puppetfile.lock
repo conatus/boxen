@@ -24,6 +24,11 @@ GITHUBTARBALL
     cyberduck (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-divvy
+  specs:
+    divvy (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
     dnsmasq (1.0.0)
@@ -196,6 +201,7 @@ DEPENDENCIES
   chrome (= 1.1.0)
   colloquy (= 1.0.0)
   cyberduck (= 1.0.0)
+  divvy (= 1.0.1)
   dnsmasq (= 1.0.0)
   dropbox (= 1.1.0)
   firefox (= 1.0.5)
