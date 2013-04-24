@@ -74,6 +74,7 @@ node default {
   include sequel_pro
   include github
   include java
+  include sourcetree
 
   # Browsers
   include chrome
