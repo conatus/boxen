@@ -121,7 +121,8 @@ node default {
       'findutils',
       'gnu-tar',
       'git-extras',
-      'tree'
+      'tree',
+      'haskell-platform'
     ]:
   }
 
