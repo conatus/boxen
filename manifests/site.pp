@@ -122,7 +122,9 @@ node default {
       'gnu-tar',
       'git-extras',
       'tree',
-      'haskell-platform'
+      'haskell-platform',
+      's3cmd',
+      'phantomjs'
     ]:
   }
 
